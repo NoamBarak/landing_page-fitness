@@ -882,7 +882,7 @@ em { font-style: normal; color: var(--accent); }
 
 /* ═══════════════════ FOOTER ═══════════════════ */
 #footer {
-  background: var(--navy-d);
+  background: var( --bg);
   border-top: 1px solid rgba(255,255,255,.07);
   padding: 40px 0;
 }
@@ -898,10 +898,10 @@ em { font-style: normal; color: var(--accent); }
 .footer-links { display: flex; gap: 28px; flex-wrap: wrap; }
 .footer-links a {
   font-size: .85rem;
-  color: rgba(255,255,255,.45);
+  color:  #5c8f82;
   transition: color var(--transition);
 }
-.footer-links a:hover { color: var(--surface); }
+.footer-links a:hover { color: var(--navy-d); }
 
 .footer-copy { font-size: .8rem; color: rgba(255,255,255,.25); }
 
