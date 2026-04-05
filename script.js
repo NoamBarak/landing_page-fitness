@@ -49,7 +49,7 @@ document.getElementById('contactForm').addEventListener('submit', e => {
   e.preventDefault();
   const name = document.getElementById('f-name').value.trim();
   const goal = document.getElementById('f-goal').value.trim();
-  const msg  = `Hi! My name is ${name} and my main goal is: ${goal}. I'd love to learn more about your program! 💪`;
+  const msg  = `Hi! My name is ${name} and my main goal is: ${goal}. I'd love to learn more about your program!`;
   window.open(`https://wa.me/972509451419?text=${encodeURIComponent(msg)}`, '_blank');
 });
 
