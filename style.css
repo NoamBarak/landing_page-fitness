@@ -231,8 +231,8 @@ em { font-style: normal; color: var(--accent); }
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
-  height: 85%;
+  width: 92%;
+  height: 96%;
   object-fit: contain;
   object-position: bottom center;
 }
@@ -931,9 +931,9 @@ em { font-style: normal; color: var(--accent); }
   .hamburger { display: flex; }
 
   /* Hero — stack vertically on mobile */
-  #hero { flex-direction: column; min-height: auto; }
-  .hero-image-panel { flex: none; width: 100%; height: 55vw; min-height: 260px; max-height: 380px; }
-  .hero-content { width: 100%; padding: 32px 24px 40px; }
+  #hero { flex-direction: column; min-height: auto; height: auto; overflow: visible; padding-top: 60px; }
+  .hero-image-panel { flex: none; width: 100%; height: 55vw; min-height: 240px; max-height: 340px; }
+  .hero-content { width: 100%; padding: 28px 24px 36px; flex: none; height: auto; }
   .hero-content h1 { font-size: clamp(1.8rem, 7vw, 2.6rem); }
   .hero-badge { font-size: .7rem; }
   .hero-sub { font-size: .95rem; margin-bottom: 24px; }
